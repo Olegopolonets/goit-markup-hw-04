@@ -206,16 +206,27 @@ ul,
   background: var(--hover-bg-color);
 }
 
-.advantages-list {
+.benefits-wrapper-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 122px;
+  border-radius: 4px;
+  background: var(--cloud-bg-color);
+  margin-bottom: 8px;
+}
+
+.benefits-list {
   display: flex;
   gap: 24px;
 }
 
-.advantages-item {
+.benefits-item {
   width: calc((100% - 72px) / 4);
 }
 
-.advantages-title,
+.benefits-title,
 .employee-title {
   font-weight: 500;
   font-size: 20px;

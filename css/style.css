@@ -12,6 +12,7 @@
   --cloud-bg-color: #f4f4fd;
   --accent-bg-color: #4d5ae5;
   --hover-bg-color: #404bbf;
+  --hover-bg-social-color: #31d0aa;
 }
 
 /* reset style */
@@ -357,7 +358,10 @@ ul,
   background: var(--secondary-bg-color);
   padding: 100px 0;
 }
-
+.footer-wrapper {
+  display: flex;
+  gap: 120px;
+}
 .footer-description {
   max-width: 264px;
   font-size: 16px;
@@ -369,6 +373,37 @@ ul,
 .footer-inline-block {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-social-title {
+  color: var(--white-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-socials-link {
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  padding: 8px;
+  display: flex;
+}
+
+.footer-socials-icon {
+  fill: var(--cloud-text-color);
+}
+.footer-socials-link:hover {
+  background: var(--hover-bg-social-color);
 }
 
 /* portfolio */

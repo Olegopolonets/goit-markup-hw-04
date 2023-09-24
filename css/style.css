@@ -5,6 +5,7 @@
   --hover-text-color: #404bbf;
   --cloud-text-color: #f4f4fd;
   --white-text-color: #ffffff;
+  --customer-item-color: #8e8f99;
   --primary-bg-color: #e5e5e5;
   --secondary-bg-color: #2e2f42;
   --section-bg-color: #ffffff;
@@ -284,7 +285,7 @@ ul,
   width: calc((100% - 3 * 16px) / 3);
 }
 
-.made-title {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -296,16 +297,6 @@ ul,
 
 .team {
   padding: 120px 0;
-}
-
-.team-title {
-  font-weight: 500;
-  font-size: 36px;
-  text-align: center;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--title-text-color);
 }
 
 .bg-silver {
@@ -333,6 +324,35 @@ ul,
   border-radius: 0px 0px 4px 4px;
 }
 
+/* customers */
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-item {
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--customer-item-color);
+  cursor: pointer;
+}
+
+.customer-icon {
+  fill: var(--customer-item-color);
+}
+
+.customer-item:hover {
+  border: 1px solid var(--hover-text-color);
+}
+
+.customer-icon:hover {
+  fill: var(--hover-text-color);
+}
+
+/* footer */
 .footer {
   background: var(--secondary-bg-color);
   padding: 100px 0;

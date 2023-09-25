@@ -174,9 +174,10 @@ ul,
   background-size: cover;
   background-position: center;
   /* */
+  max-width: 1440px;
   overflow: hidden;
   margin: auto;
-  outline: 1px solid re;
+  outline: 1px solid red;
 }
 
 .hero-title {

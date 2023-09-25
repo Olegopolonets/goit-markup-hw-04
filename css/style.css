@@ -537,9 +537,7 @@ ul,
   height: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
   transform: translateY(100%);
   color: var(--cloud-text-color);
   font-family: Roboto;

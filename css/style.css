@@ -419,7 +419,7 @@ ul,
   gap: 120px;
 }
 */
-.footer-logo {
+.flexd {
   display: flex;
   align-items: baseline;
 }

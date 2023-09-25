@@ -413,9 +413,15 @@ ul,
   background: var(--secondary-bg-color);
   padding: 100px 0;
 }
+/*
 .footer-wrapper {
   display: flex;
   gap: 120px;
+}
+*/
+.footer-top {
+  display: flex;
+  align-items: baseline;
 }
 .footer-description {
   max-width: 264px;

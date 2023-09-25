@@ -423,6 +423,11 @@ ul,
   display: flex;
   align-items: baseline;
 }
+
+.footer-logo {
+  margin-right: 120px;
+}
+
 .footer-description {
   max-width: 264px;
   font-size: 16px;

@@ -378,6 +378,7 @@ ul,
 }
 .footer-wrapper {
   display: flex;
+  align-items: baseline;
   gap: 120px;
 }
 .footer-description {

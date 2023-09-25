@@ -378,7 +378,6 @@ ul,
 }
 .footer-wrapper {
   display: flex;
-  align-items: baseline;
   gap: 120px;
 }
 .footer-description {
@@ -395,6 +394,8 @@ ul,
 }
 
 .footer-social-title {
+  display: flex;
+  align-items: baseline;
   color: var(--white-text-color);
   font-size: 16px;
   font-style: normal;

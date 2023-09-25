@@ -345,17 +345,19 @@ ul,
   border: 1px solid var(--customer-item-color);
   padding: 16px 32px;
   cursor: pointer;
+  height: 88px;
 }
 
 .customer-icon {
   fill: var(--customer-item-color);
 }
 
-.customer-item:hover {
+.customer-link:hover {
   border: 1px solid var(--hover-text-color);
+  border-radius: 4px;
 }
 
-.customer-icon:hover {
+.customer-link:hover:hover .customer-icon {
   fill: var(--hover-text-color);
 }
 

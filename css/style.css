@@ -146,6 +146,13 @@ ul,
   color: #404bbf;
 }
 
+.navigation-link {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: -1px;
+}
+
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--hover-text-color);

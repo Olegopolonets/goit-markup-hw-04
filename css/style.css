@@ -340,7 +340,10 @@ ul,
 }
 
 .customer-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--customer-item-color);
   border-radius: 4px;
   border: 1px solid var(--customer-item-color);
   padding: 16px 32px;
@@ -348,12 +351,10 @@ ul,
   height: 88px;
 }
 
-.customer-icon {
-  fill: var(--customer-item-color);
-}
-
-.customer-link:hover {
-  border: 1px solid var(--hover-text-color);
+.customer-link:hover,
+.customer-link:focus {
+  border-color: var(--hover-text-color);
+  color: var(--hover-text-color);
   border-radius: 4px;
 }
 
@@ -361,6 +362,9 @@ ul,
   fill: var(--hover-text-color);
 }
 
+.customer-icon {
+  fill: currentColor;
+}
 /* footer */
 .footer {
   background: var(--secondary-bg-color);

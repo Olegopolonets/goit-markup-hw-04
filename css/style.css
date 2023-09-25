@@ -144,7 +144,8 @@ ul,
 .navigation-item:first-child {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation-item:first-child .navigation-link {
+.navigation-item .link-studio,
+.navigation-item .link-portfolio {
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -154,14 +155,17 @@ ul,
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-link:after {
+.link-studio:after,
+.link-portfolio:after {
   position: absolute;
   content: '';
   left: 0;
   bottom: -1px;
   height: 4px;
+  width: 100%;
   background-color: #404bbf;
   border-radius: 2px;
+  z-index: 1;
 }
 
 .navigation-link:hover,
@@ -539,6 +543,7 @@ ul,
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
 .modal {

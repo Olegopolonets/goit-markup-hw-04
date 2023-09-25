@@ -465,12 +465,15 @@ ul,
   background-color: #4d5ae5;
   padding: 8px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-socials-icon {
   fill: var(--cloud-text-color);
 }
-.footer-socials-link:hover {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
   background: var(--hover-bg-social-color);
 }
 

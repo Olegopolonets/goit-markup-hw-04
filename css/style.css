@@ -295,11 +295,18 @@ ul,
   gap: 24px;
 }
 
+.employee-social-item {
+  width: 40px;
+  height: 40px;
+}
+
 .employee-socials-link {
   border-radius: 50%;
   background-color: #4d5ae5;
   padding: 8px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .employee-socials-icon {
